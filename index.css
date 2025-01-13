@@ -8,7 +8,7 @@ section {
   grid-template-columns: repeat(3, 33%);
   grid-template-rows: repeat(3, 33%);
   gap: 10px;
-  grid-template-areas: "box title box" "box . box" ". box footer";
+  grid-template-areas: "title . ." "box box box" ". . footer";
   background-color: rgb(55, 117, 96);
   padding: 5vh 5vw;
   height: 80vh;
