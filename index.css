@@ -2,10 +2,27 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+footer {
+  background-color: rgb(112, 136, 128);
+  color: white;
+  text-align: center;
+  min-height: 10vh;
+}
+main {
+  background-color: sandybrown;
+}
+header {
+  background-color: rgb(131, 108, 187);
+  color: white;
+  text-align: center;
+  min-height: 10vh;
 }
 section {
   display: grid;
-  grid-template-columns: repeat(3, 33%);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 33%);
   gap: 10px;
   grid-template-areas: "title . ." "box box box" ". . footer";
